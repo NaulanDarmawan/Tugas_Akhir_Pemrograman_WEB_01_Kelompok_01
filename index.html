@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tourly || Web Tour Kelompok 2</title>
+
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="top">
+    <!-- HTML Milik Ara ditulis dibaris dibawah sini ya -->
+    <header class="header" data-header>
+      <div class="overlay" data-overlay></div>
+      <div class="header-top">
+        <div class="container">
+          <a href="tel:+01123456790" class="helpline-box">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <div class="wrapper">
+              <p class="helpline-title">For Further Inquires :</p>
+
+              <p class="helpline-number">+01 (123) 4567 90</p>
+            </div>
+          </a>
+
+          <a href="#" class="logo">
+            <img src="./assets/logo.svg" alt="Tourly logo" />
+          </a>
+
+          <div class="header-btn-group">
+            <button class="search-btn" aria-label="Search">
+              <ion-icon name="search"></ion-icon>
+            </button>
+
+            <button
+              class="nav-open-btn"
+              aria-label="Open Menu"
+              data-nav-open-btn
+            >
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container">
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <nav class="navbar" data-navbar>
+            <div class="navbar-top">
+              <a href="#" class="logo">
+                <img src="./assets/logo-blue.svg" alt="Tourly logo" />
+              </a>
+
+              <button
+                class="nav-close-btn"
+                aria-label="Close Menu"
+                data-nav-close-btn
+              >
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="navbar-list">
+              <li>
+                <a href="#home" class="navbar-link" data-nav-link>home</a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-link" data-nav-link>about us</a>
+              </li>
+
+              <li>
+                <a href="#destination" class="navbar-link" data-nav-link
+                  >destination</a
+                >
+              </li>
+
+              <li>
+                <a href="#package" class="navbar-link" data-nav-link
+                  >packages</a
+                >
+              </li>
+
+              <li>
+                <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+              </li>
+
+              <li>
+                <a href="#contact" class="navbar-link" data-nav-link
+                  >contact us</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <button class="btn btn-primary">Book Now</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Popup Card Details -->
+      <div class="popup-card" card-popup-overlay>
+        <div class="popup-card-box">
+          <div class="popup-img">
+            <img src="assets/popular-1.jpg" alt="Italy" loading="lazy" />
+          </div>
+          <div class="popup-content">
+            <div class="popup-content-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+              possimus adipisci accusamus quibusdam. Sint Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Libero possimus adipisci
+              accusamus quibusdam. Sint Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Libero possimus adipisci accusamus quibusdam.
+              Sint Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Libero
+            </div>
+            <div class="popup-content-button">
+              <button class="btn btn-primary">Reservasi Sekarang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-card" card-popup-overlay>
+        <div class="popup-card-box">
+          <div class="popup-img">
+            <img src="assets/popular-2.jpg" alt="Italy" loading="lazy" />
+          </div>
+          <div class="popup-content">
+            <div class="popup-content-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+              possimus adipisci accusamus quibusdam. Sint Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Libero possimus adipisci
+              accusamus quibusdam. Sint Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Libero possimus adipisci accusamus quibusdam.
+              Sint Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Libero
+            </div>
+            <div class="popup-content-button">
+              <button class="btn btn-primary">Reservasi Sekarang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-card" card-popup-overlay>
+        <div class="popup-card-box">
+          <div class="popup-img">
+            <img src="assets/popular-3.jpg" alt="Italy" loading="lazy" />
+          </div>
+          <div class="popup-content">
+            <div class="popup-content-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+              possimus adipisci accusamus quibusdam. Sint Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Libero possimus adipisci
+              accusamus quibusdam. Sint Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Libero possimus adipisci accusamus quibusdam.
+              Sint Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Libero
+            </div>
+            <div class="popup-content-button">
+              <button class="btn btn-primary">Reservasi Sekarang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-card" card-popup-overlay>
+        <div class="popup-card-box">
+          <div class="popup-img">
+            <img src="assets/popular-4.jpg" alt="Italy" loading="lazy" />
+          </div>
+          <div class="popup-content">
+            <div class="popup-content-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+              possimus adipisci accusamus quibusdam. Sint Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Libero possimus adipisci
+              accusamus quibusdam. Sint Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Libero possimus adipisci accusamus quibusdam.
+              Sint Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Libero
+            </div>
+            <div class="popup-content-button">
+              <button class="btn btn-primary">Reservasi Sekarang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-card" card-popup-overlay>
+        <div class="popup-card-box">
+          <div class="popup-img">
+            <img src="assets/popular-5.jpg" alt="Italy" loading="lazy" />
+          </div>
+          <div class="popup-content">
+            <div class="popup-content-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+              possimus adipisci accusamus quibusdam. Sint Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Libero possimus adipisci
+              accusamus quibusdam. Sint Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Libero possimus adipisci accusamus quibusdam.
+              Sint Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Libero
+            </div>
+            <div class="popup-content-button">
+              <button class="btn btn-primary">Reservasi Sekarang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-card" card-popup-overlay>
+        <div class="popup-card-box">
+          <div class="popup-img">
+            <img src="assets/popular-6.jpg" alt="Italy" loading="lazy" />
+          </div>
+          <div class="popup-content">
+            <div class="popup-content-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+              possimus adipisci accusamus quibusdam. Sint Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Libero possimus adipisci
+              accusamus quibusdam. Sint Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Libero possimus adipisci accusamus quibusdam.
+              Sint Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Libero
+            </div>
+            <div class="popup-content-button">
+              <button class="btn btn-primary">Reservasi Sekarang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Batas Popup Card Details -->
+      <article>
+        <section class="hero" id="home">
+          <div class="container">
+            <h2 class="h1 hero-title">Journey To Explore World</h2>
+            <p class="hero-text">
+              Bersama Tourly, rasakan petualangan yang menakjubkan dan temukan
+              keajaiban dunia bersama kami. Jadikan perjalanan anda dengan Tourly
+              sebagai kenangan abadi.
+            </p>
+            <div class="btn-group">
+              <button class="btn btn-primary">Learn More</button>
+              <button class="btn btn-secondary">Book Now</button>
+            </div>
+          </div>
+        </section>
+        <!-- Batas HTML milik Ara -->
+
+        <!-- HTML Milik Evinda ditulis dibaris dibawah sini ya -->
+        <section class="tour-search">
+          <div class="container">
+            <form action="" class="tour-search-form">
+              <div class="input-wrapper">
+                <label for="destination" class="input-label"
+                  >Search Destination</label
+                >
+                <input
+                  type="text"
+                  name="destination"
+                  id="destination"
+                  class="input-field"
+                  placeholder="Enter Destination"
+                  required
+                />
+              </div>
+              <div class="input-wrapper">
+                <label for="people" class="input-label">Jumlah Orang :</label>
+                <input
+                  type="number"
+                  name="people"
+                  id="people"
+                  class="input-field"
+                  placeholder="Masukkan Jumlah"
+                  required
+                />
+              </div>
+              <div class="input-wrapper">
+                <label for="checkin" class="input-label">Check In :</label>
+                <input
+                  type="date"
+                  name="checkin"
+                  id="checkin"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="input-wrapper">
+                <label for="checkout" class="input-label">Check Out :</label>
+                <input
+                  type="date"
+                  name="checkout"
+                  id="checkout"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <button type="submit" class="btn btn-secondary">
+                Inquire Now
+              </button>
+            </form>
+          </div>
+        </section>
+
+        <section class="popular" id="destination">
+          <div class="container">
+            <p class="section-subtitle">Best Visited Place</p>
+            <h2 class="h2 section-title">Popular Destination</h2>
+            <p class="section-text">
+              Tourly menawarkan destinasi terbaik di seluruh penjuru dunia
+              dengan pilihan akomodasi yang berkualitas untuk kenyamanan anda.
+            </p>
+            <ul class="popular-list">
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="/assets/popular-1.jpg"
+                      alt="San Miguel - Italia"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p class="card-subtitle">
+                      <a href="#">Italy</a>
+                    </p>
+                    <h3 class="h3 card-title">
+                      <a href="#">San Miguel</a>
+                    </h3>
+                    <p class="card-text">
+                      Jelajahi jalan indah yang dipenuhi arsitektur kolonial
+                      menakjubkan.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="/assets/popular-2.jpg"
+                      alt="Burj Khalifa - Dubai"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p class="card-subtitle">
+                      <a href="#">Dubai</a>
+                    </p>
+                    <h3 class="h3 card-title">
+                      <a href="#">Burj Khalifa</a>
+                    </h3>
+                    <p class="card-text">
+                      Menara tertinggi di dunia dengan keindahannya yang
+                      menakjubkan.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="/assets/popular-3.jpg"
+                      alt="Kyoto Temple - Japan"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p class="card-subtitle">
+                      <a href="#">Japan</a>
+                    </p>
+                    <h3 class="h3 card-title">
+                      <a href="#">Kyoto Temple</a>
+                    </h3>
+                    <p class="card-text">
+                      Kunjungi Istana Kuno Nan Megah Sejak Masa Lampau.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="/assets/popular-4.jpg"
+                      alt="San Miguel - Italia"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p class="card-subtitle">
+                      <a href="#">Swiss</a>
+                    </p>
+                    <h3 class="h3 card-title">
+                      <a href="#">Switzerland</a>
+                    </h3>
+                    <p class="card-text">
+                      Nikmati Kemegahan Pegunungan Indah Di Bumi Bagian Barat.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="/assets/popular-5.jpg"
+                      alt="Burj Khalifa - Dubai"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p class="card-subtitle">
+                      <a href="#">Arab Emirates</a>
+                    </p>
+                    <h3 class="h3 card-title">
+                      <a href="#">Kaaba, Mecca</a>
+                    </h3>
+                    <p class="card-text">
+                      Melaksanakan Ibadah Di Tanah Suci Nan Agung.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="/assets/popular-6.jpg"
+                      alt="Kyoto Temple - Japan"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p class="card-subtitle">
+                      <a href="#">KOREA</a>
+                    </p>
+                    <h3 class="h3 card-title">
+                      <a href="#">Seoul</a>
+                    </h3>
+                    <p class="card-text">
+                      Kemegahan Istana Masa Korea Kuno Menjadi kenangan Tak
+                      terlupakan.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <button class="btn btn-primary">More Destination</button>
+          </div>
+        </section>
+        <!-- Batas HTML milik Evinda -->
+
+        <!-- HTML Milik Dido ditulis dibaris dibawah sini ya -->
+        <section class="package" id="package">
+          <div class="container">
+            <p class="section-subtitle">Popular Packages</p>
+            <h2 class="h2 section-title">Checkout Our Packages</h2>
+            <p class="section-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Dignissimos ducimus libero, similique exercitationem provident
+              tempore?
+            </p>
+
+            <ul class="package-list">
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img
+                      src="/assets/packege-1.jpg"
+                      alt="Experience The Great Holiday On Beach"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">
+                      Experience The Great Holiday On Beach
+                    </h3>
+                    <p class="card-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quod, eum labore? Architecto itaque ipsum sunt!
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">7H/6M</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">kuota: 10</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">Bali</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="review">(25 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">
+                      Rp.750.000,00
+                      <span>/ per orang</span>
+                    </p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img
+                      src="/assets/packege-2.jpg"
+                      alt="Summer Holiday To The Oxolotan River"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">
+                      Summer Holiday To The Oxolotan River
+                    </h3>
+                    <p class="card-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quod, eum labore? Architecto itaque ipsum sunt!
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">7H/6M</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">kuota: 10</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">Hawaii</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="review">(20 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">
+                      Rp.520.000,00
+                      <span>/ per orang</span>
+                    </p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img
+                      src="/assets/packege-3.jpg"
+                      alt="Santorial Island's Weekend Vacation"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">
+                      Santorial Island's Weekend Vacation
+                    </h3>
+                    <p class="card-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quod, eum labore? Architecto itaque ipsum sunt!
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">7H/6M</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">kuota: 10</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">Malaysia</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="review">(40 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">
+                      Rp.660.000,00
+                      <span>/ per orang</span>
+                    </p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <button class="btn btn-primary">View All Packages</button>
+          </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+          <div class="container">
+            <p class="section-subtitle">Our Team</p>
+            <h2 class="h2 section-title">Anggota Kelompok 2</h2>
+            <p class="section-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Dignissimos ducimus libero, similique exercitationem provident
+              tempore?
+            </p>
+
+            <ul class="gallery-list">
+              <li class="gallery-item" guider-cards>
+                <figure class="gallery-image">
+                  <img src="/assets/gallery-1.jpg" alt="Gallery Image" />
+                </figure>
+                <div class="gallery-content" data-guider>
+                  <h1>Dido Fajar Satria</h1>
+                </div>
+              </li>
+              <li class="gallery-item" guider-cards>
+                <figure class="gallery-image">
+                  <img src="/assets/gallery-2.jpg" alt="Gallery Image" />
+                </figure>
+                <div class="gallery-content" data-guider>
+                  <h1>Isna Saharal Fitrah</h1>
+                </div>
+              </li>
+              <li class="gallery-item" guider-cards>
+                <figure class="gallery-image">
+                  <img src="/assets/gallery-3.jpeg" alt="Gallery Image" />
+                </figure>
+                <div class="gallery-content" data-guider>
+                  <h1>Naulan Darmawan</h1>
+                </div>
+              </li>
+              <li class="gallery-item" guider-cards>
+                <figure class="gallery-image">
+                  <img src="/assets/gallery-4.jpeg" alt="Gallery Image" />
+                </figure>
+                <div class="gallery-content" data-guider>
+                  <h1>David Pratama Tampubolon</h1>
+                </div>
+              </li>
+              <li class="gallery-item" guider-cards>
+                <figure class="gallery-image">
+                  <img src="/assets/gallery-5.jpeg" alt="Gallery Image" />
+                </figure>
+                <div class="gallery-content" data-guider>
+                  <h1>Evinda Retno Jayanti</h1>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Batas HTML milik Dido -->
+
+        <!-- HTML Milik David ditulis dibaris dibawah sini ya -->
+        <section class="cta" id="contact">
+          <div class="container">
+            <div class="cta-content">
+              <p class="section-subtitle">Call To Action</p>
+              <h2 class="h2 section-title">
+                Ready For Unforgettable Travel. Remember Us!
+              </h2>
+              <p class="section-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dignissimos ducimus libero, similique exercitationem provident
+                tempore?
+              </p>
+            </div>
+            <button class="btn btn-secondary">Contact Us</button>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img src="/assets/logo.svg" alt="Tourly Logo" />
+            </a>
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
+              labore cupiditate minus atque. Excepturi, sint!
+            </p>
+          </div>
+          <div class="footer-contact">
+            <h4 class="contact-title">Contact Us</h4>
+            <p class="contact-text">Feel free to contact and reach us !!</p>
+            <ul>
+              <li class="contact-item">
+                <ion-icon name="call-outline"></ion-icon>
+                <a href="tel:+6285607333418" class="contact-link"
+                  >+6285607333418</a
+                >
+              </li>
+              <li class="contact-item">
+                <ion-icon name="mail-outline"></ion-icon>
+                <a
+                  href="mailto:naulandarmawan588@gmail.com"
+                  class="contact-link"
+                  >naulandarmawan588@gmail.com</a
+                >
+              </li>
+              <li class="contact-item">
+                <ion-icon name="location-outline"></ion-icon>
+                <address>Malang, East Java</address>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-form">
+            <p class="form-text">
+              Subscribe Our Newsletter For More Update & news !!
+            </p>
+            <form action="#" class="form-wrapper">
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+              <button type="submit" class="btn btn-secondary">Subscibe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">&copy; 2024 Tugas Pemrograman WEB</p>
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="#" class="footer-bottom-link">Naulan Darmawan</a>
+            </li>
+            <li>
+              <a href="#" class="footer-bottom-link">Isna Saharal Fitrah</a>
+            </li>
+            <li>
+              <a href="#" class="footer-bottom-link">Dido Fajar Satria</a>
+            </li>
+            <li>
+              <a href="#" class="footer-bottom-link">Evinda Retno Jayanti</a>
+            </li>
+            <li>
+              <a href="#" class="footer-bottom-link"
+                >David Pratama Tampubolon</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#top" class="go-top" data-go-top>
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <!-- Batas HTML milik David -->
+    <script src="app.js"></script>
+    <!-- Link Icon Ionicon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
