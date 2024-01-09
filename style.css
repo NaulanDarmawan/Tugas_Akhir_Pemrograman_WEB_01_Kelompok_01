@@ -526,7 +526,6 @@ body {
   border-radius: var(--radius-25);
   height: 430px;
   cursor: pointer;
-  background-color: red;
 }
 
 .popular-card .card-img {
